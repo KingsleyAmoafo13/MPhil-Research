@@ -32,6 +32,7 @@ Prune.py --backbone [specify backbone type] either vgg16, resnet50 or resnet101
 
 
 example: prune.py --backbone resnet50
+
 This prunes resnet50
 ```
 
@@ -49,10 +50,11 @@ The log and checkpoints are stored under directory 'logs'.ss
 python test.py --datapath './remote_sensing/iSAID_patches' --img_size 256 --backbone resnet50 --fold 0 --benchmark isaid --bsz 64 --nshot 1 --load './logs/exp_name/best_model.pt'
 ```
 
-We provide a pretrained-model for the above setting. You can download it from [here](https://drive.google.com/drive/folders/1IU3m_0qTgIzmz6mc_0J1b-dMGBZMnelg?usp=drive_link).
-
+```
 The fusion process is implemented in test.py, you can turn it on in test.sh. You can turn it on by setting fuse=True. The option eigen_path is used to indicate the directory of eigen vectors. The process to generate eigen vectors is described in [spectral](spectral/README.md).
-
+```
+```
 ### Acknowledgements
 
 We borrow code from public projects [SDM](https://github.com/caoql98/SDM), [HSNet](https://github.com/juhongm999/hsnet), [dss](https://github.com/lukemelas/deep-spectral-segmentation) and [SCCNet] (https://github.com/linhanwang/SCCNet.git)
+```
