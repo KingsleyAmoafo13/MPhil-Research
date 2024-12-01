@@ -32,9 +32,10 @@ Prune.py --backbone [specify backbone type] either vgg16, resnet50 or resnet101
 
 ```
 Example
-prune.py --backbone resnet50
-```
 This prunes resnet50
+
+```
+prune.py --backbone resnet50
 ```
 
 ### Train
