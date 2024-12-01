@@ -27,7 +27,7 @@ Download VOC2012 from http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval
 
 ### Prune
 ```
-```
+
 Prune.py --backbone [specify backbone type] either vgg16, resnet50 or resnet101 
 
 ```
@@ -51,6 +51,7 @@ The log and checkpoints are stored under directory 'logs'.ss
 python test.py --datapath './remote_sensing/iSAID_patches' --img_size 256 --backbone resnet50 --fold 0 --benchmark isaid --bsz 64 --nshot 1 --load './logs/exp_name/best_model.pt'
 ```
 
+```
 ### Acknowledgements
 
 We borrow code from public projects [SDM](https://github.com/caoql98/SDM), [HSNet](https://github.com/juhongm999/hsnet), [dss](https://github.com/lukemelas/deep-spectral-segmentation) and [SCCNet] (https://github.com/linhanwang/SCCNet.git)
