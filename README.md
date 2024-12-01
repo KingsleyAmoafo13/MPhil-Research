@@ -26,13 +26,14 @@ Download VOC2012 from http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval
 
 
 ### Prune
-
+```
 ```
 Prune.py --backbone [specify backbone type] either vgg16, resnet50 or resnet101 
 
-
-example: prune.py --backbone resnet50
-
+```
+Example
+prune.py --backbone resnet50
+```
 This prunes resnet50
 ```
 
