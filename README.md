@@ -3,7 +3,7 @@
 
 Introduction
 ------------
-This is the source code for our submitted paper [EFFICIENT BACKBONE OPTIMIZATION FOR FEW-SHOT SEGMENTATION VIA MAGNITUDE-BASED WEIGHT PRUNING], which is under review at IET Generation, Transmission & Distribution 2024.
+This is the source code for our submitted paper [EFFICIENT BACKBONE OPTIMIZATION FOR FEW-SHOT SEGMENTATION VIA MAGNITUDE-BASED WEIGHT PRUNING].
 
 Architecture
 ------------
