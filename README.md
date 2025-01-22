@@ -55,5 +55,5 @@ python test.py --datapath './remote_sensing/iSAID_patches' --img_size 256 --back
 
 ### Acknowledgements
 
-We borrow code from public projects we acknowledge the authours of https://arxiv.org/abs/2309.05840 whose work served as baseline model for this study [SCCNet] (https://github.com/linhanwang/SCCNet.git)
+We leveraged on codes from (https://github.com/linhanwang/SCCNet.git) who are the authours of https://arxiv.org/abs/2309.05840 . Their work served as baseline model for this study.
 
