@@ -1,4 +1,4 @@
-# Enhancing Few-Shot Semantic Segmentation in Remote Sensing Through MagnitudeBased Pruning
+# Enhancing Few-Shot Semantic Segmentation in Remote Sensing Through Magnitude Based Pruning
 
 
 Introduction
