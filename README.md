@@ -1,4 +1,4 @@
-# EFFICIENT BACKBONE OPTIMIZATION FOR FEW-SHOT SEGMENTATION VIA MAGNITUDE-BASED WEIGHT PRUNING
+# Enhancing Few-Shot Semantic Segmentation in Remote Sensing Through MagnitudeBased Pruning
 
 
 Introduction
